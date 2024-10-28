@@ -11,17 +11,14 @@ _inputHandler.Place += (_, args) => {
 
 _inputHandler.Move += (_, args) => {
   _toy.MoveForward();
-  Feedback();
 };
 
 _inputHandler.Left += (_, args) => {
   _toy.TurnLeft();
-  Feedback();
 };
 
 _inputHandler.Right += (_, args) => {
   _toy.TurnRight();
-  Feedback();
 };
 
 _inputHandler.Report += (_, args) => {
